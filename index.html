@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Novo Jogador</h1>
+        <form id="formCadastro">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        
+        <div id="infoCadastrada">
+            <h2>Informações Cadastradas:</h2>
+            <ul id="listaUsuarios"></ul>
+        </div>
+
+        <div id="mensagem" class="mensagem"></div>
+        
+        <button id="excluirTodosBtn">Excluir Todos</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

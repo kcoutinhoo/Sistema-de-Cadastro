@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images6.alphacoders.com/913/thumb-1920-913124.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#infoCadastrada {
+    margin-top: 20px;
+}
+
+#listaUsuarios {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaUsuarios li {
+    background: #333;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.excluirBtn {
+    background: #dc3545;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.excluirBtn:hover {
+    background: #c82333;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    width: 100%;  
+}
+
+.mensagem {
+    color: #dc3545; 
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
